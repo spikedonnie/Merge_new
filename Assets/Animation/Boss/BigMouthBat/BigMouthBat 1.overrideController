@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BigMouthBat 1
+  m_Controller: {fileID: 9100000, guid: 064ef378f1275466497c064b49f9e7e5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0db73fface70644529fd8a21595f117f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 17de59f30dd2f4df68a565fb70a7bc3e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ebf44b4e0f0834faf8f791ebf66186ab, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7f0487928693140578f5e1785c2dca82, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 350124d8d5b1a4e019283090b26a58ac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7630425ba75a24627bb7dae414ab899b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5db79924ca9744a9bda982630fa1576, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7b773fb4402da4a2c80eee15c21b9730, type: 2}

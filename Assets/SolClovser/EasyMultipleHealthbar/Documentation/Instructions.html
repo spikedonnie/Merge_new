@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Instructions</title>
+</head>
+
+<body style="font-family: Arial; text-align: center;">
+<div>
+    <p>Hello, thank you for purchasing a copy of Easy Multiple Healthbar! </p>
+    <p>I can be contacted any time at <a href="mailto:clovsergames@gmail.com">clovsergames@gmail.com</a> or <a href="https://clovsergames.com/">https://clovsergames.com</a>. </p>
+    <p>Consider joining my <a href="https://discord.gg/wbDXFFWCyv" target="_blank">Discord</a> for a more cozy and close contact!</p>
+    <p>I am friendly and will do my best!</p>
+</div>
+
+<div style="margin-top:100px;">
+    <h4>Setup Instructions</h4>
+    <p>1) Drag and drop 'Easy Multiple Healthbar' prefab into your starting scene from prefabs folder.</p>
+    <p>Thats all! </p>
+</div>
+<hr style="margin-top: 100px;">
+
+<div style="margin-top:100px;">
+    <h4>Usage</h4>
+    <p>Check out the DemoEnemy script in Demo folder for line by line explanation.</p>
+    <p>or</p>
+    
+    <p><b>How to request a healthbar for a game object</b> </p>
+    <label>
+        <textarea readonly="true" rows="3" cols="100">        
+        using SolClovser.EasyMultipleHealthbar;
+        </textarea>
+    </label>
+    <label>
+        
+    <br>
+    <textarea readonly="true" rows="18" cols="100">        
+        public int maxHp = 100;
+        public int currentHp = 75;
+        public Vector3 positionOffset = new Vector3(0, 2, 0);
+        
+        private HealthbarController _healthbar;
+        
+        public void Start()
+        {
+            RequestAHealthbar();
+        }        
+           
+        private void RequestAHealthbar()
+        {          
+            _healthbar = EasyMultipleHealthbar.Instance.RequestHealthbar();          
+            _healthbar.SetupUI(maxHp, currentHp, transform, positionOffset);
+        }
+    </textarea>
+    </label>
+
+    <p><b>How to update the healthbar</b> </p>
+    <label>
+    <textarea readonly="true" rows="11" cols="100">        
+        public void Update()
+        {
+            UpdateHealthbar(currentHp);
+        }     
+           
+        private void UpdateHealthbar(float currentValue)
+        {
+            _healthbar.UpdateUI(currentValue);
+        }
+    </textarea>
+    </label>
+
+    <p><b>How to return the healthbar to pool when its no longer needed. When enemy dies for example</b> </p>
+    <label>
+    <textarea readonly="true" rows="7" cols="100">        
+        private void ReturnHealthbar()
+        {            
+            _healthbar.Return();
+        }
+    </textarea>
+    </label>
+
+    <p><b>How to return all healthbars to pool when they no longer needed. 
+        <br>You should call this before changing scenes or performance will start to degrade
+        <br>Every healthbar needs to return to the pool to avoid instantiating new healthbars at runtime</b> </p>
+    <label>
+    <textarea readonly="true" rows="6" cols="100">        
+        private void ReturnAllHealthbars()
+        {            
+            EasyMultipleHealthbar.Instance.ReturnAllHealthbars();
+        }
+    </textarea>
+    </label>
+    
+</div>
+<hr style="margin-top: 100px;">
+
+<div style="margin-top:100px;">
+    <h4>Customization</h4>
+    <p>I have added a healthbar prefab with two colors but you can customize it or make your own and use it!.</p>
+    <p>Its really easy to do!</p>
+    
+    <p>1) Create a slider on any canvas.</p>
+    <p>2) Add Healthbar Controller component to it and drag the slider into fields.</p>
+    <p>3) Customize it to your liking and save it as a prefab.</p>
+    <p>4) Drag and drop it to healthbar field of 'Easy Multiple Healthbar' prefab in prefabs folder.</p>
+    <p> Now it will use your own healthbar visual and work the same</p>
+    
+</div>
+<hr style="margin-top: 100px;">
+
+<div style="margin-top:100px; margin-bottom: 150px">
+    <h4>Demo scene</h4>
+    <p>1) 'Easy Multiple Healthbar' present in scene.</p>   
+    <p>2) Every enemy has 'DemoEnemy' script on it and its requesting and updating the healthbars.</p>
+    <p><b>That's all. Thank you! Happy coding and good luck on your projects!</b></p>
+    <p><b>And please leave a review on the Asset Store. It really helps with further purchases.</b></p>
+</div>
+
+</body>
+</html>

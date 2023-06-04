@@ -1,0 +1,59 @@
+{"data":
+[
+ {
+   "count": 0,
+   "duration": 30,
+   "cost": 100
+ },
+ {
+   "count": 1,
+   "duration": 30,
+   "cost": 150
+ },
+ {
+   "count": 2,
+   "duration": 30,
+   "cost": 200
+ },
+ {
+   "count": 3,
+   "duration": 30,
+   "cost": 250
+ },
+ {
+   "count": 4,
+   "duration": 30,
+   "cost": 300
+ },
+ {
+   "count": 5,
+   "duration": 30,
+   "cost": 350
+ },
+ {
+   "count": 6,
+   "duration": 30,
+   "cost": 400
+ },
+ {
+   "count": 7,
+   "duration": 30,
+   "cost": 450
+ },
+ {
+   "count": 8,
+   "duration": 30,
+   "cost": 500
+ },
+ {
+   "count": 9,
+   "duration": 30,
+   "cost": 550
+ },
+ {
+   "count": 10,
+   "duration": 30,
+   "cost": 600
+ }
+]
+}

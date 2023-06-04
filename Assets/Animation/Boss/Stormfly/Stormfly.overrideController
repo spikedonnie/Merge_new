@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stormfly
+  m_Controller: {fileID: 9100000, guid: 064ef378f1275466497c064b49f9e7e5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0db73fface70644529fd8a21595f117f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: af4501c83a9ba46cab5a1df62797c1e6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ebf44b4e0f0834faf8f791ebf66186ab, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9ced21dce1e4849578e73a2198e10d72, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 350124d8d5b1a4e019283090b26a58ac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e038317c605f74031b1d7e0e357a4732, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5db79924ca9744a9bda982630fa1576, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0f608325ec91443e4bb7eb37ecd55932, type: 2}

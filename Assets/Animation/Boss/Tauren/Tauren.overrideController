@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tauren
+  m_Controller: {fileID: 9100000, guid: 064ef378f1275466497c064b49f9e7e5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0db73fface70644529fd8a21595f117f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7f4fbfa0d774e4076982ad25d2bf4c44, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ebf44b4e0f0834faf8f791ebf66186ab, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 64163aec6440c4e71a78408d7ca7f751, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 350124d8d5b1a4e019283090b26a58ac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e013c45b08baa4c049cc1988f1a01a9b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f5db79924ca9744a9bda982630fa1576, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1c55ea661af9b4b77b17dda0410e2318, type: 2}

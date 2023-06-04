@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LarvaController
+  m_Controller: {fileID: 9100000, guid: e09e63c9111c49b468fa24826028d51e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3486ce60504514342a2c507bb2ac2176, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6cbc53a5422a9f2448637b3498821a91, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bdc867604a13dd24681f2eb92a272f30, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 33ab11157d5b4634385dc58779e42cba, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2c4dfa4e7e9e37546b821acfbf5a7a7c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 33c9af5d2302a2b4b96c82b5e525fd4d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0cd7696c33f420745b597231ae57e4e9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d94b05c378388d34c8c96c9dfc4dc5a3, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b0ef7237195d0fd4eb2be22a07bd1736, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b0ef7237195d0fd4eb2be22a07bd1736, type: 2}

@@ -1,0 +1,20 @@
+{"data":
+[
+ {
+   "TextType": "EndGame",
+   "Kr": "게임 종료"
+ },
+ {
+   "TextType": "TitleOffLine",
+   "Kr": "오프라인 수익"
+ },
+ {
+   "TextType": "TitleEventNewUser",
+   "Kr": "신규 유저 선물"
+ },
+  {
+   "TextType": "CloseTab",
+   "Kr": "탭하여 닫기"
+ }
+]
+}

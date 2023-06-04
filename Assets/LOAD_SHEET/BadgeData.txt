@@ -1,0 +1,84 @@
+{"data":
+[
+ {
+   "id": 1,
+   "abilityType": "GoldBonus",
+   "typeName": "골드 보너스",
+   "badgeName": "집행의 망치",
+   "power": 20,
+   "price": 1500,
+   "color": "#BABABA",
+   "badgeType": "Hammer"
+ },
+ {
+   "id": 2,
+   "abilityType": "SpiritStoneBonus",
+   "typeName": "영혼석 보너스",
+   "badgeName": "난공불락",
+   "power": 20,
+   "price": 2000,
+   "color": "#BABABA",
+   "badgeType": "Castle"
+ },
+ {
+   "id": 3,
+   "abilityType": "Damage",
+   "typeName": "공격력",
+   "badgeName": "거미의 숨결",
+   "power": 50,
+   "price": 3000,
+   "color": "#00FFD1",
+   "badgeType": "Spider"
+ },
+ {
+   "id": 4,
+   "abilityType": "GoldBonus",
+   "typeName": "골드 보너스",
+   "badgeName": "심판의 주먹",
+   "power": 40,
+   "price": 3500,
+   "color": "#00FFD1",
+   "badgeType": "Fist"
+ },
+ {
+   "id": 5,
+   "abilityType": "SpiritStoneBonus",
+   "typeName": "영혼석 보너스",
+   "badgeName": "사자의 포효",
+   "power": 50,
+   "price": 5000,
+   "color": "#FFE100",
+   "badgeType": "Lion"
+ },
+ {
+   "id": 6,
+   "abilityType": "Damage",
+   "typeName": "공격력",
+   "badgeName": "늑대의 후예",
+   "power": 100,
+   "price": 6000,
+   "color": "#FFE100",
+   "badgeType": "Wolves"
+ },
+ {
+   "id": 7,
+   "abilityType": "MergeSpeed",
+   "typeName": "합성 속도",
+   "badgeName": "철의 이빨",
+   "power": 50,
+   "price": 10000,
+   "color": "#FF005C",
+   "badgeType": "Tooth"
+ },
+ {
+   "id": 8,
+   "abilityType": "SpiritStoneBonus",
+   "typeName": "영혼석 보너스",
+   "badgeName": "피의 맹세",
+   "power": 80,
+   "price": 10000,
+   "color": "#FF005C",
+   "badgeType": "Blood"
+ }
+]
+}

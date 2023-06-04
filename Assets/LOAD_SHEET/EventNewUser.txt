@@ -1,0 +1,48 @@
+{"data":[
+ {
+   "day": 1,
+   "rewardType_1": "Diamond",
+   "rewardType_2": "Bell",
+   "rewardType_3": "SpiritStone",
+   "amount_1": 1000,
+   "amount_2": 10,
+   "amount_3": 30000
+ },
+ {
+   "day": 2,
+   "rewardType_1": "Diamond",
+   "rewardType_2": "Bell",
+   "rewardType_3": "Contract",
+   "amount_1": 2000,
+   "amount_2": 15,
+   "amount_3": 5
+ },
+ {
+   "day": 3,
+   "rewardType_1": "Diamond",
+   "rewardType_2": "Bell",
+   "rewardType_3": "SpiritStone",
+   "amount_1": 3000,
+   "amount_2": 20,
+   "amount_3": 50000
+ },
+ {
+   "day": 4,
+   "rewardType_1": "Diamond",
+   "rewardType_2": "Bell",
+   "rewardType_3": "Contract",
+   "amount_1": 4000,
+   "amount_2": 25,
+   "amount_3": 10
+ },
+ {
+   "day": 5,
+   "rewardType_1": "Diamond",
+   "rewardType_2": "Contract",
+   "rewardType_3": "SpiritStone",
+   "amount_1": 5000,
+   "amount_2": 15,
+   "amount_3": 100000
+ }
+]
+}

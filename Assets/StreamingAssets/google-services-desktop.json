@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409222006936",
+    "project_id": "api-project-8442051",
+    "storage_bucket": "api-project-8442051.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409222006936:android:ae60892d54c0d60b7e28ed",
+        "android_client_info": {
+          "package_name": "com.donnienest.MergeMercenary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409222006936-vmku2ig1g5qmjl5fkj1jb4kdl8411h2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByfOcDoTFF9KS-xcxp_clYhJxRvc1oamA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409222006936-91j13djhtmaspj0c9ngindbfevi2b9ln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
